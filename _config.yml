@@ -1,6 +1,6 @@
 # Site settings
-title: The Minimum Viable Model
-description: 'Artificial Intelligence trends and concepts made easy.' # this means to ignore newlines until "baseurl:"
+title: The Computer Voyage
+description: 'A roaming journey about computing.' # this means to ignore newlines until "baseurl:"
 permalink: ':title:output_ext'
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://mengjiao-liu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -32,7 +32,7 @@ about-author: Engineer
 email: liumengjiao69@gmail.com # Add your Email address
 phone: # Add your Phone number
 website: https://mengjiao-liu.github.io # Add your website
-linkedin: mengjiao-liu # Add your Linkedin handle
+#linkedin: mengjiao-liu # Add your Linkedin handle
 github: mengjiao-liu # Add your Github handle
 twitter: '@Mengjia76835886' # Add your Twitter handle
 bandcamp: 404 # Add your Bandcamp username
@@ -41,7 +41,7 @@ bandcamp: 404 # Add your Bandcamp username
 mailchimp: "https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
 
 # Disqus
-discus_identifier: mengjiao-liu-github-io # Add your discus identifier
+discus_identifier: mengjiao-liu # Add your discus identifier
 comments_curtain: yes # leave empty to show the disqus embed directly
 
 # Tracker
