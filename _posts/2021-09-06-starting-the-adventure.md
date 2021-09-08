@@ -2,9 +2,9 @@
 layout: post
 read_time: true
 show_date: true
-title: "旅程开始啦"
+title: "旅程开始"
 date: 2021-03-24
-img: posts/20210324/starting_adventure.jpg
+img: posts/20210906/starting_adventure.jpg
 tags: [general blogging, thoughts, life]
 author: Mengjiao Liu
 description: "学无止境"
@@ -18,4 +18,4 @@ description: "学无止境"
 
 记录的内容，主要是计算机方面的，可能会涉及到计算机的各方面。
 
-总之，开始啦~ 与诸君共勉~
+总之，开始啦~ 
