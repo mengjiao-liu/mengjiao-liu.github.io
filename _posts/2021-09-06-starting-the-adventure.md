@@ -18,4 +18,7 @@ description: "学无止境"
 
 记录的内容，主要是计算机方面的，可能会涉及到计算机的各方面。
 
+博客搭建使用的是 jekyll ，主题是直接选的免费主题 [Adam Blog 2.0](https://github.com/the-mvm/the-mvm.github.io) ，以后有时间再自己定制试试。
+
 总之，开始啦~ 
+
