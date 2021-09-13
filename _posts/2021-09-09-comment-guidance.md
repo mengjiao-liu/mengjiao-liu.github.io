@@ -4,7 +4,7 @@ read_time: true
 show_date: true
 title: "评论守则"
 date: 2021-09-09
-img: posts/20210909/comment_guidance.png
+img: posts/20210909/meet.jpg
 tags: [comments, thoughts]
 author: Mengjiao Liu
 description: "评论守则"
