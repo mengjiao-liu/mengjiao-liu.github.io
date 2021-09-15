@@ -1480,8 +1480,15 @@ img + small, img + br + small {
 
 .page-content img {
     display: block;
-    margin: auto;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 3px 2px 20px 0px rgb(16 22 26 / 40%);
 }
+
+/*.page-content img:hover {*/
+/*    box-shadow: -2px 4px 20px 5px rgb(16 22 26 / 40%);*/
+/*    transition: all 300ms ease-in-out;*/
+/*}*/
 
 .header-page {
   position: relative;
