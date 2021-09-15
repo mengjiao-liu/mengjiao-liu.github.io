@@ -51,7 +51,7 @@ fbadmin: 1730163964040562
 # Paginate
 paginate: 6
 paginate_path: 'page:num'
-words_per_minute: 200
+words_per_minute: 80
 
 # Build settings
 markdown: kramdown
