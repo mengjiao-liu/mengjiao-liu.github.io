@@ -7,7 +7,7 @@ date: 2021-09-13
 img: posts/20210913/email.png
 tags: [mail]
 author: Mengjiao Liu
-description: "博客评论平台 disqus"
+description: "邮件发布平台 mailchimp，可以让订阅者继续关注你未来的文章，可以提高网站留存率。"
 ---
 ## 背景
 我在 [GitHub Pages](https://pages.github.com/) 上搭建了自己的博客网站，搭建过程中用到了邮件订阅这个功能，

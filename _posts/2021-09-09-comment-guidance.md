@@ -7,7 +7,7 @@ date: 2021-09-09
 img: posts/20210909/meet.jpg
 tags: [comments, thoughts]
 author: Mengjiao Liu
-description: "评论守则"
+description: "评论应该遵循的守则，我们欢迎互相尊重、互相理解的评论。"
 ---
 欢迎来到 mengjiao-liu.github.io 的网站，这篇文章主要是用来阐述网站评论规则的。
 

@@ -7,7 +7,7 @@ date: 2021-03-24
 img: posts/20210906/starting_adventure.jpg
 tags: [general blogging, thoughts, life]
 author: Mengjiao Liu
-description: "学无止境"
+description: "开始旅程，学无止境。"
 ---
 最近，突然觉得自己该写博客了。以前学到的东西，没有好好总结，总是过段时间就会忘记，需要不断重复理清逻辑这一过程。因此想找个方法记录下自己平常学到东西。
 也算记录下自己的成长。
