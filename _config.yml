@@ -19,15 +19,13 @@ logo-icon-SEO: "/assets/img/branding/deer.png" # must be a non SVG file
 # it will be always kept on every visit (i.e. no matter
 # the browser is closed or not)
 night_mode: "auto"
-
 logo-dark: "/assets/img/branding/deer-black.svg"
 highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
 
 # Author settings
 author: Mengjiao Liu # add your name
 author-pic: mind.jpeg
-about-author: Development engineer
-
+about-author: 一个开发者，主要涉及的范围为 DevOps、Kubernetes、Docker 以及 Linux 相关。
 # Contact links
 email: liumengjiao21@gmail.com # Add your Email address
 phone: # Add your Phone number
@@ -36,6 +34,8 @@ website: https://mengjiao-liu.github.io # Add your website
 github: mengjiao-liu # Add your Github handle
 twitter: '@Mengjia76835886' # Add your Twitter handle
 bandcamp: 404 # Add your Bandcamp username
+rss: true
+
 
 # Newsletter
 mailchimp: "https://gmail.us5.list-manage.com/subscribe/post?u=9fbb8b48e6b41210766fb9506&id=93100d6d9b"

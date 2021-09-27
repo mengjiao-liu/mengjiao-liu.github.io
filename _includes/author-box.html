@@ -16,6 +16,9 @@
       {% if site.email %}
       <li class="email"><a class="email" href="mailto:{{site.email}}"><i class="fa fa-envelope-o"></i></a></li>
       {% endif %}
+      {% if site.rss %}
+      <li class="rss"><a class="rss" href="{{site.website}}/feed.xml" target="_blank"><i class="fa fa-rss"></i></a></li>
+      {% endif %}
     </ul>
   </div>
   <div class="author-desc">
