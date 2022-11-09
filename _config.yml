@@ -25,7 +25,7 @@ highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code h
 # Author settings
 author: Mengjiao Liu # add your name
 author-pic: mind.jpeg
-about-author: 一个开发者，主要涉及的范围为 DevOps、Kubernetes、Docker 以及 Linux 相关。
+about-author: Kubernetes SIG docs zh approver & WG structured logging reviewer，主要涉及的范围为 DevOps、Kubernetes、Docker 以及 Linux 相关。
 # Contact links
 email: liumengjiao21@gmail.com # Add your Email address
 phone: # Add your Phone number
