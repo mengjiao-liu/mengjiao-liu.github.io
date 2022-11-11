@@ -225,7 +225,7 @@ kubectl get --raw /api/v1/nodes/$NODE_NAME/proxy/stats/summary
 kubelet 启动 summary api，summary api 又使用 handle 方法实现，详情请看下面的具体代码。
 
 ## kubelet 初始化 summary Provider 流程
-```text
+```go
 // kubelet 启动
 // cmd/kubelet/kubelet.go:35
 command := app.NewKubeletCommand()
@@ -321,7 +321,7 @@ if kubeDeps.useLegacyCadvisorStats {
 ```
 
 ## `/stats/summary` api 启动过程
-```text
+```go
 // cmd/kubelet/app/server.go:1175
 // 在1147 行运行createAndInitKubelet函数后 kubelet已经得到 statsProvider
 startKubelet(k, podCfg, &kubeServer.KubeletConfiguration, kubeDeps, kubeServer.EnableServer)
@@ -396,7 +396,7 @@ Kubernetes 现在 `/stats/summary`端点的数据默认是这两种混杂的，�
 这部分的设计详情，请参看：[cAdvisor-less, CRI-full Container and Pod Stats KEP](https://github.com/kubernetes/enhancements/tree/master/keps/sig-node/2371-cri-pod-container-stats#cadvisor-less-cri-full-container-and-pod-stats)
 
 从 `GetCPUAndMemoryStats`（这个函数数据仅包含 CPU 和内存的，和列出全部数据的逻辑 Get 函数是一样的，依此为例）顺着向下，我们其实会看到现在是有 2 个 实现：cAdvisor实现 和 CRI 实现。下文以 CRI 实现为例（这也是社区的倾向，Cadvisor 代码实现是类似的，不再赘述）。
-```text
+```go
 // pkg/kubelet/server/stats/summary.go:36
 // SummaryProvider provides summaries of the stats from Kubelet.
 type SummaryProvider interface {
