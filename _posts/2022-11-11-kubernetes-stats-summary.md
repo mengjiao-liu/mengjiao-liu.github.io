@@ -4,7 +4,7 @@ read_time: true
 show_date: true
 title: "Kubernetes /stats/summary 源码解析"
 date: 2022-11-11
-img: posts/20221027/kubernetes-debug.png
+img: posts/20221111/kubernetes-stats-summary.png
 tags: [kubernetes]
 author: Mengjiao Liu
 description: "kubelet 在节点、卷、Pod 和容器级别收集统计信息， 并在 Summary API 中提供它们的统计信息供用户阅读霍调用。"
@@ -525,6 +525,17 @@ func (kl *Kubelet) ListPodCPUAndMemoryStats() ([]statsapi.PodStats, error) {
 }
 
 ↓↓↓
+// **stats provider**
+// pkg/kubelet/stats/provider.go:81
+// Provider provides the stats of the node and the pod-managed containers.
+type Provider struct {
+	cadvisor     cadvisor.Interface
+	podManager   kubepod.Manager
+	runtimeCache kubecontainer.RuntimeCache
+	containerStatsProvider
+	rlimitStatsProvider
+}
+
 // pkg/kubelet/stats/provider.go:92
 // containerStatsProvider is an interface that provides the stats of the
 // containers managed by pods.

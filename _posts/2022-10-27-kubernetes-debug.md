@@ -5,7 +5,7 @@ show_date: true
 title: "Debug kubernetes 组件"
 date: 2022-10-27
 img: posts/20221027/kubernetes-debug.png
-tags: [text editor, markdown]
+tags: [kubernetes, debug]
 author: Mengjiao Liu
 description: "在 Goland 上打断点调试 kubernetes 组件"
 ---
