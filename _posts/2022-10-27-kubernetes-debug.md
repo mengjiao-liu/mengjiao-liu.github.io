@@ -16,7 +16,7 @@ description: "在 Goland 上打断点调试 kubernetes 组件"
 - kind
 - kubernetes
 
-## 背景
+# 背景
 因为经常需要修 k8s bug，复现相关 issue，调试 kubernetes 组件就很有必要。
 
 # 环境准备
@@ -72,7 +72,7 @@ go install github.com/go-delve/delve/cmd/dlv@latest
 export PATH=$PATH:/root/go/bin
 ```
 
-## **获取kubernetes代码**
+## 获取kubernetes代码
 
 - 拉取代码
 
@@ -151,7 +151,7 @@ metadata:
 spec:
   containers:
   - command:
-    **- kube-apiserver
+    - --kube-apiserver
     - --advertise-address=172.18.0.3
     - --allow-privileged=true
     - --authorization-mode=Node,RBAC
