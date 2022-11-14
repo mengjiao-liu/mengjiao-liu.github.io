@@ -888,7 +888,8 @@ svg.menu-icon-house {
   text-decoration: none;
   font-family: var(--font2), sans-serif;
   font-weight: var(--font2-bold);
-  text-transform: uppercase;
+  /* home 页面设置文章标题为小写，而是保持原样*/
+  /*text-transform: uppercase;*/
   color: white;
 }
 .post-card-link:hover {
@@ -1496,7 +1497,7 @@ img + small, img + br + small {
 }
 .header-page h1 {
   font-weight: var(--font2-regular);
-  font-size: 4.25rem;
+  font-size: 3rem;
   text-align: left;
   margin: 0 0 10px;
   color: var(--text)

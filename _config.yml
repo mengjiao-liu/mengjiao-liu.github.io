@@ -1,6 +1,6 @@
 # Site settings
-title: The Computer Voyage
-description: 'A roaming journey about computing.' # this means to ignore newlines until "baseurl:"
+title: Mengjiao's blog
+description: 'the blog space of Mengjiao' # this means to ignore newlines until "baseurl:"
 permalink: ':title:output_ext'
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://mengjiao-liu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -63,7 +63,7 @@ compress_html:
   startings: [html, head, body]
 
 # Outputting
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 category_archive:
   type: liquid
