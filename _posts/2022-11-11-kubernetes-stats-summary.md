@@ -25,9 +25,7 @@ git checkout 8e48df135318026d5f8a972a96a2ff665889568a
 
 # Summary API
 kubelet 在节点、卷、Pod 和容器级别收集统计信息， 并在 Summary API 中提供它们的统计信息供消费者阅读。
-
 我们可以直接获取其数据，看下它长什么样子，这样可以比较直观的了解它到底提供了什么数据，也便于后面理解源码。
-
 现在让我们开始吧！
 
 ## 获取 /stats/summary API 数据
@@ -342,7 +340,7 @@ startKubelet(k, podCfg, &kubeServer.KubeletConfiguration, kubeDeps, kubeServer.E
 		klog.InfoS("Started kubelet")
 ```
 
-## `/stats/summary` api 启动过程
+## /stats/summary api 启动过程
 ```go
 // k 变量包含 kubelet stats provider 参数
 // 在1157 行运行createAndInitKubelet函数后 kubelet已经得到 statsProvider
@@ -415,7 +413,7 @@ func (h *handler) handleSummary(request *restful.Request, response *restful.Resp
 	}
 }
 ```
-## `/stats/summary` 具体实现
+## /stats/summary 具体实现
 Kubernetes 现在 `/stats/summary` 端点的数据默认是这两种混杂的，未来的话，社区是计划全部从 CRI 获取 stats 数据，
 以避免对 cAdvisor 的依赖。
 这部分的设计详情，请参看：[cAdvisor-less, CRI-full Container and Pod Stats KEP](https://github.com/kubernetes/enhancements/tree/master/keps/sig-node/2371-cri-pod-container-stats#cadvisor-less-cri-full-container-and-pod-stats)
