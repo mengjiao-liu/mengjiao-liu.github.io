@@ -7,7 +7,8 @@ html {
   --accent-dark:  #4e3e51;    /* accent 2   */
   --main:         #326273;    /* main color */
   --main-dim:     #879dab;    /* dimmed version of main color */
-  --text:         #2B323B;
+  /*--text:         #2B323B;*/
+  --text:         #1F2328;
   --grey1:        #5F5E58;
   --grey2:        #8D897C;
   --grey3:        #B4B3A7;
@@ -16,7 +17,7 @@ html {
   --background:   #ffffff;
   --shadow:       rgba(32,30,30,.3);
   --github:       #333;
-  --font1: 'Lora', charter, Georgia, Cambria, 'Helvetica Neue', Times, serif;/* body text */
+  --font1: -apple-system, BlinkMacSystemFont, 'Lora', charter, Georgia, Cambria, 'Helvetica Neue', Times, serif;/* body text */
   --font2: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* headers and titles   */
   --font1-light:      400;
   --font1-regular:    400;
@@ -470,8 +471,9 @@ pre code {
   padding-left: 0;
 }
 code {
-  font-family: monospace;
-  font-size: 0.75rem;
+  /*font-family: monospace;*/
+  font-family: var(--font2);;
+  font-size: 0.85rem;
 }
 svg {
     vertical-align: middle;
