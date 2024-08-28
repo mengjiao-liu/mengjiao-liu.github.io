@@ -24,7 +24,7 @@ highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code h
 
 # Author settings
 author: Mengjiao Liu # add your name
-author-pic: mind.jpeg
+author-pic: profile-photo.png
 about-author: Kubernetes WG Structured Logging Chair，SIG Instrumentation Reviewer，SIG Docs Chinese Owner，主要涉及的领域为 Kubernetes、Docker 以及 Linux 相关。
 # Contact links
 email: liumengjiao21@gmail.com # Add your Email address
